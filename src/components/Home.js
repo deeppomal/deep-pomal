@@ -5,10 +5,10 @@ import { Main } from './Main'
 
 export const Home = () => {
   return (
-    <div>
-        <Header />
-        <Main />
-        <Footer />
+    <div className='min-h-screen'>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   )
 }
